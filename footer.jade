@@ -1,0 +1,48 @@
+.footer#footer
+  .footer__inner
+    .footer__sctns
+    
+      .footer__sctn
+        .footer__callInfo
+          p
+            |Still not convinced?
+          p.callNumber
+            |Call us on 9619940927
+      
+      .footer__sctn
+        .footer__socialTitle
+          |Follow Us
+        .footer__socialList
+          a(href="https://www.facebook.com/Homerobotics/" target="_blank")
+            img(src="img/fb.png")
+          a(href="https://instagram.com/horo_smart_home" target="_blank")
+            img(src="img/insta.png")
+          a(href="https://www.youtube.com/channel/UCE-hbfSnGXQ_emE1JQn5e6w" target="_blank")
+            img(src="img/yt.png")
+        .footer__socialTitle
+          |Contact
+        p
+          |Email: 
+        a(href="mailto:contact@homerobotics.in")
+          |contact@homerobotics.in
+          
+      .footer__sctn
+        .footer__socialTitle
+          |Get in touch
+        form(id="userQueryFooterForm", action="", method="POST").footer__form
+          div
+            input(type="text", name="entry.2005620554", placeholder="Enter your name *")
+          div
+            input(type="email", name="entry.1045781291", placeholder="Enter your email *")
+          div
+            input(type="number", name="entry.1166974658", placeholder="Enter mobile number *")
+          div
+            textarea(type="text", name="entry.839337160", placeholder="Enter your message *")
+          .footer__formSubmit
+            button#footer__formSubmitBtn(onClick="submitForm();").roundedWhiteBtn.solid
+              |Submit
+            .footer__submitSuccess
+              |You response is sent. We'll get back to you soon.
+              
+    .footer__copyrights
+      |Copyrights Horo Automation Pvt. Ltd. 2019

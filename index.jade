@@ -1,0 +1,266 @@
+html
+  head
+    title HORO
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js')
+    link(rel='stylesheet', href='styles/styleAll.css')
+    script(src='scripts/main.js')
+    link(link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600" rel="stylesheet")
+    
+  body
+    
+    include header.jade
+          
+    .banner#home
+      .banner__inner
+        .banner__firstCol
+          .banner__points
+            .banner__firstPoint
+              p
+                |Smart 
+                span
+                  |Phone
+              p
+                |Smart 
+                span
+                  |TV
+              p
+                |Then why not
+              p
+                |Smart 
+                span
+                  |Homes
+                  
+          .banner__points
+            .banner__firstPoint
+              p
+                |Control everthing with your voice, or your smartphone
+            
+            
+        .banner__secondCol
+          .banner__mobInHand
+            img(src="img/handBanner.png")
+          
+        
+    
+    .usecase#about
+      .sideDesign
+        img(src="img/sideDesign.png")
+      .sideDesign
+        img(src="img/sideDesign.png")
+      .usecase__inner
+        .usecase__content
+          .usecase__msg
+            |Control your lights from the comfort of your sofa.
+          .usecase__pic
+            img(src="img/guy.png")
+        .usecase__content
+          .usecase__msg
+            |Forgot to turn off the lights?
+            p
+              |Control your home from anywhere.
+          .usecase__pic
+            img(src="img/girl.png")
+            
+    .how2Use
+      .how2Use__inner
+        .how2Use__title
+          |3 ways to control
+        .how2Use__sectnsWrap
+        
+          .how2Use__sectn
+            .how2Use__sectnImg
+              img(src="img/voice.png")
+            .how2Use__sectnTitle
+              |Voice
+            .how2Use__sectnSubTitle
+              |Voice control through Alexa or Google home.
+          
+          .how2Use__sectn
+            .how2Use__sectnImg
+              img(src="img/appPointing.png")
+            .how2Use__sectnTitle
+              |App
+            .how2Use__sectnSubTitle
+              |Control your applicances on your smartphone.
+          
+          .how2Use__sectn
+            .how2Use__sectnImg
+              img(src="img/socket.png")
+            .how2Use__sectnTitle
+              |Switch Board
+            .how2Use__sectnSubTitle
+              |Existing switch board will work as it is.
+    
+    .howItWorks#howItWorks
+      .sideDesign
+        img(src="img/sideDesign.png")
+      .sideDesign
+        img(src="img/sideDesign.png")
+      .howItWorks__inner
+        .howItWorks__title
+          |How it works
+        .howItWorks__sectns
+        
+          .howItWorks__sectn
+            .howItWorks__img
+              img(src="img/first.gif")
+            .howItWorks__info
+              |Install device inside your switch board
+              
+          .howItWorks__sectn
+            .howItWorks__img
+              img(src="img/second.gif")
+            .howItWorks__info
+              |Configure it using Horo App
+          
+          .howItWorks__sectn
+            .howItWorks__img
+              img(src="img/third.gif")
+            .howItWorks__info
+              |Device will connect to Horo cloud through your router
+              
+          .howItWorks__sectn
+            .howItWorks__img
+              img(src="img/fourth.gif")
+            .howItWorks__info
+              |Enjoy your smart home
+              
+    .how2Install
+      .how2Install__inner
+        .how2Install__title
+          |Easy to Install
+        .how2Install__sctns
+          .how2Install__sctn
+            .how2Install__sctnWrap
+              .how2Install__sctnTitle
+                |Retrofit
+              .how2Install__sctnImg
+                img(src="img/plug.png")
+              .how2Install__sctnInfo
+                |No rewiring needed, goes behind your existing switchboard.
+                
+          .how2Install__sctn
+            .how2Install__sctnWrap
+              .how2Install__sctnTitle
+                |15 mins installation
+              .how2Install__sctnImg
+                img(src="img/clock.png")
+              .how2Install__sctnInfo
+                |Takes not more than 15 mins to make your home smart.
+                
+          .how2Install__sctn
+            .how2Install__sctnWrap
+              .how2Install__sctnTitle
+                |DIY
+              .how2Install__sctnImg
+                img(src="img/wrench.png")
+              .how2Install__sctnInfo
+                |No trained enginners needed. Do it yourself or can be done bu any local electrician.
+        
+        .how2Install__cta
+          button.roundedWhiteBtn
+            |Watch Video
+    
+    .extraTechInfo
+      .extraTechInfo__inner
+        .extraTechInfo__col1
+          .extraTechInfo__title
+            |Switch Node
+          .extraTechInfo__list
+            div
+              |Control upto 5 switches
+            div
+              |Compact Design
+            div
+              |Takes upto 6 Amp per switch.
+        .extraTechInfo__col2
+          img(src="img/switchNode.png")
+    
+    .pricing
+      .pricing__wrap
+        .pricing__info
+          .pricing__warranty
+            div
+              |1
+            |year warranty
+          .pricing__title
+            |Experience smart home now for
+          .pricing__prices
+            .pricing__originalPrice
+              |Rs. 3,499
+            .pricing__dicountedPrice
+              |Rs. 2,999
+              span
+                |per switchboard
+          .pricing__cta
+            button.roundedWhiteBtn
+              |Order Now
+    
+    .review
+      .review__inner
+        .review__title
+          |What our clients say
+        .review__content
+          //- .review__indiv
+          //-   .review__statement
+          //-     |I love a luxurious lifestyle. HORO is a great addition to my luxury at home with an affordable price and it's super convenient to use.
+          //-   .review__By
+          //-     .review__byImg
+          //-       img(src="https://s3.amazonaws.com/uifaces/faces/twitter/felipebsb/128.jpg")
+          //-     .review__byNameDesign
+          //-       |Ms. Manali Baruah
+          //-       span
+          //-         |(HR Zeta Pay)
+          
+          #reviewCarousel.carousel.slide(data-ride='carousel')
+              //- ol.carousel-indicators
+              //-   li.active(data-target='#reviewCarousel', data-slide-to='0')
+              //-   li(data-target='#reviewCarousel', data-slide-to='1')
+              //-   li(data-target='#reviewCarousel', data-slide-to='2')
+              .carousel-inner
+                .item.active
+                  .review__indiv
+                    .review__statement
+                      |I love a luxurious lifestyle. HORO is a great addition to my luxury at home with an affordable price and it's super convenient to use.
+                    .review__By
+                      .review__byImg
+                        img(src="https://s3.amazonaws.com/uifaces/faces/twitter/felipebsb/128.jpg")
+                      .review__byNameDesign
+                        |Ms. Manali Baruah
+                        span
+                          |(HR Zeta Pay)
+                .item
+                  .review__indiv
+                    .review__statement
+                      |. HORO is a great addition to my luxury at home with an affordable price and it's super convenient to use.
+                    .review__By
+                      .review__byImg
+                        img(src="https://s3.amazonaws.com/uifaces/faces/twitter/felipebsb/128.jpg")
+                      .review__byNameDesign
+                        |Ms. Manali Baruah
+                        span
+                          |(HR Zeta Pay)
+                .item
+                  .review__indiv
+                    .review__statement
+                      |great addition to my luxury at home with an affordable price and it's super convenient to use.
+                    .review__By
+                      .review__byImg
+                        img(src="https://s3.amazonaws.com/uifaces/faces/twitter/felipebsb/128.jpg")
+                      .review__byNameDesign
+                        |Ms. Manali Baruah
+                        span
+                          |(HR Zeta Pay)
+              // Left and right controls
+              a.carouselControl.left(data-target='#reviewCarousel', data-slide='prev')
+                img(src="img/prev.png")
+              a.carouselControl.right(data-target='#reviewCarousel', data-slide='next')
+                img(src="img/next.png")
+
+                
+        
+    include footer.jade

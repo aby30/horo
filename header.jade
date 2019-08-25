@@ -1,0 +1,23 @@
+.header
+  .header__inner
+    .header__logo
+      img(src="img/horo.png")
+    .header__nav
+      .header__navHam(onClick="expandMenu();")
+        span
+        span
+        span
+      .header__navInner
+        .header__navList
+          a.header__navLink(href="#home" onClick="expandMenu()")
+            |Home
+          a.header__navLink(href="#about" onClick="expandMenu()")
+            |About Us
+          a.header__navLink(href="#howItWorks" onClick="expandMenu()")
+            |How it works
+          a.header__navLink(href="#footer" onClick="expandMenu()")
+            |Contact
+            
+      .header__cta
+        button.roundedWhiteBtn.inverted
+          |Order Now
