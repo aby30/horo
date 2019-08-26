@@ -83,7 +83,9 @@ body {
       width: 60%; }
       @media (max-width: 640px) {
         .usecase__content:nth-child(2) .usecase__pic {
-          width: 100%; } }
+          float: none;
+          width: 70%;
+          margin: 0 auto; } }
     .usecase__content:nth-child(2) .usecase__msg {
       padding: 15% 0 0;
       width: 39%; }
@@ -235,9 +237,11 @@ body {
         width: 100%; } }
   .howItWorks__img {
     margin: 0 0 4%; }
-    @media (max-width: 640px) {
-      .howItWorks__img > img {
-        width: 60%; } }
+    .howItWorks__img > img {
+      width: 40%; }
+      @media (max-width: 640px) {
+        .howItWorks__img > img {
+          width: 60%; } }
 
 .how2Install__inner {
   padding: 4% 10%;
@@ -295,6 +299,11 @@ body {
   width: 70%;
   margin: 0 auto;
   line-height: 2; }
+
+.how2Install__cta a {
+  text-decoration: none;
+  display: inline-block;
+  color: #ff6901; }
 
 .extraTechInfo__inner {
   display: table;
@@ -406,19 +415,25 @@ body {
   margin: 0 20px 0 0; }
 
 .pricing__dicountedPrice {
-  font-size: 28px; }
+  font-size: 28px;
+  font-weight: 600; }
   .pricing__dicountedPrice span {
     font-size: 13px;
     margin: 0 0 0 10px; }
 
+.pricing__cta a {
+  text-decoration: none;
+  display: inline-block; }
+
 .review__inner {
   position: relative;
   text-align: center;
-  padding: 3% 7% 6%; }
+  padding: 3% 20% 6%;
+  min-height: 340px; }
   @media (max-width: 640px) {
     .review__inner {
-      padding: 10% 7%;
-      min-height: 360px; } }
+      padding: 10% 7% 23%;
+      min-height: 420px; } }
   .review__inner .carousel {
     position: static; }
 
@@ -453,9 +468,8 @@ body {
     width: 45px;
     border-radius: 50%; }
 
-@media (max-width: 640px) {
-  .review__byNameDesign span {
-    display: block; } }
+.review__byNameDesign span {
+  display: block; }
 
 .roundedWhiteBtn {
   padding: 10px 25px;

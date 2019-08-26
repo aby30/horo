@@ -1,6 +1,6 @@
 html
   head
-    title HORO
+    title HoRo Smart home
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no')
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
@@ -85,7 +85,7 @@ html
             .how2Use__sectnTitle
               |App
             .how2Use__sectnSubTitle
-              |Control your applicances on your smartphone.
+              |Control appliances from your smartphone.
           
           .how2Use__sectn
             .how2Use__sectnImg
@@ -115,13 +115,13 @@ html
             .howItWorks__img
               img(src="img/second.gif")
             .howItWorks__info
-              |Configure it using Horo App
+              |Configure it using HoRo App
           
           .howItWorks__sectn
             .howItWorks__img
               img(src="img/third.gif")
             .howItWorks__info
-              |Device will connect to Horo cloud through your router
+              |Device will connect to HoRo cloud through your router
               
           .howItWorks__sectn
             .howItWorks__img
@@ -159,10 +159,10 @@ html
               .how2Install__sctnImg
                 img(src="img/wrench.png")
               .how2Install__sctnInfo
-                |No trained enginners needed. Do it yourself or can be done bu any local electrician.
+                |No trained engineers needed. Do it yourself or can be done by any local electrician.
         
         .how2Install__cta
-          button.roundedWhiteBtn
+          a(href="https://www.youtube.com/watch?v=IWsQRfA7KBE&t=", target="_blank").roundedWhiteBtn
             |Watch Video
     
     .extraTechInfo
@@ -177,6 +177,10 @@ html
               |Compact Design
             div
               |Takes upto 6 Amp per switch.
+            div
+              |Easy replaceable connectors.
+            div
+              |No dependence of physical switch.
         .extraTechInfo__col2
           img(src="img/switchNode.png")
     
@@ -191,13 +195,13 @@ html
             |Experience smart home now for
           .pricing__prices
             .pricing__originalPrice
-              |Rs. 3,499
+              |₹ 3,499
             .pricing__dicountedPrice
-              |Rs. 2,999
+              |₹ 2,999
               span
                 |per switchboard
           .pricing__cta
-            button.roundedWhiteBtn
+            a(href="https://www.instamojo.com/@HoRo_smart_home" target="_blank").roundedWhiteBtn
               |Order Now
     
     .review
@@ -205,30 +209,15 @@ html
         .review__title
           |What our clients say
         .review__content
-          //- .review__indiv
-          //-   .review__statement
-          //-     |I love a luxurious lifestyle. HORO is a great addition to my luxury at home with an affordable price and it's super convenient to use.
-          //-   .review__By
-          //-     .review__byImg
-          //-       img(src="https://s3.amazonaws.com/uifaces/faces/twitter/felipebsb/128.jpg")
-          //-     .review__byNameDesign
-          //-       |Ms. Manali Baruah
-          //-       span
-          //-         |(HR Zeta Pay)
-          
           #reviewCarousel.carousel.slide(data-ride='carousel')
-              //- ol.carousel-indicators
-              //-   li.active(data-target='#reviewCarousel', data-slide-to='0')
-              //-   li(data-target='#reviewCarousel', data-slide-to='1')
-              //-   li(data-target='#reviewCarousel', data-slide-to='2')
               .carousel-inner
                 .item.active
                   .review__indiv
                     .review__statement
-                      |I love a luxurious lifestyle. HORO is a great addition to my luxury at home with an affordable price and it's super convenient to use.
+                      |I love a luxurious lifestyle. HoRo is a great addition to my luxury at home with an affordable price and it's super convenient to use.
                     .review__By
                       .review__byImg
-                        img(src="https://s3.amazonaws.com/uifaces/faces/twitter/felipebsb/128.jpg")
+                        img(src="img/manaliB.png")
                       .review__byNameDesign
                         |Ms. Manali Baruah
                         span
@@ -236,25 +225,25 @@ html
                 .item
                   .review__indiv
                     .review__statement
-                      |. HORO is a great addition to my luxury at home with an affordable price and it's super convenient to use.
+                      |I just wanted to share a quick note and let you know that you guys do a really good job. I’m glad I decided to go with HoRo It’s really great to see how easily the product can be installed and managed. I have never faced any problem at all..
                     .review__By
                       .review__byImg
-                        img(src="https://s3.amazonaws.com/uifaces/faces/twitter/felipebsb/128.jpg")
+                        img(src="img/mananD.png")
                       .review__byNameDesign
-                        |Ms. Manali Baruah
+                        |Mr. Manan Dugar 
                         span
-                          |(HR Zeta Pay)
+                          |(Financial Analyst Axxela)
                 .item
                   .review__indiv
                     .review__statement
-                      |great addition to my luxury at home with an affordable price and it's super convenient to use.
+                      |The device is handy and I can personally vouch for its efficiency and ease. Everything is literally on your fingertips. You will not even realise how this becomes a part of your life. You realise what it is only once you start using it.
                     .review__By
                       .review__byImg
-                        img(src="https://s3.amazonaws.com/uifaces/faces/twitter/felipebsb/128.jpg")
+                        img(src="img/abhimanyuM.png")
                       .review__byNameDesign
-                        |Ms. Manali Baruah
+                        |Mr. Abhimanyu Mimani 
                         span
-                          |(HR Zeta Pay)
+                          |(Analyst PWC)
               // Left and right controls
               a.carouselControl.left(data-target='#reviewCarousel', data-slide='prev')
                 img(src="img/prev.png")

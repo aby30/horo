@@ -114,7 +114,9 @@ body {
         float: left;
         width: 60%;
         @media(max-width: 640px) {
-          width: 100%;
+          float: none;
+          width: 70%;
+          margin: 0 auto;
         }
       }
       .usecase__msg {
@@ -291,8 +293,9 @@ body {
   }
   &__img {
     margin: 0 0 4%;
-    @media(max-width: 640px) {
-      > img {
+    > img {
+      width: 40%;
+      @media(max-width: 640px) {
         width: 60%;
       }
     }
@@ -359,6 +362,13 @@ body {
     width: 70%;
     margin: 0 auto;
     line-height: 2;
+  }
+  &__cta {
+    a {
+      text-decoration: none;
+      display: inline-block;
+      color: rgb(255, 105, 1);
+    }
   }
 }
 
@@ -483,9 +493,16 @@ body {
   }
   &__dicountedPrice {
     font-size: 28px;
+    font-weight: 600;
     span {
       font-size: 13px;
       margin: 0 0 0 10px;
+    }
+  }
+  &__cta {
+    a {
+      text-decoration: none;
+      display: inline-block;
     }
   }
 }
@@ -494,10 +511,11 @@ body {
   &__inner {
     position: relative;
     text-align: center;
-    padding: 3% 7% 6%;
+    padding: 3% 20% 6%;
+    min-height: 340px;
     @media(max-width: 640px) {
-      padding: 10% 7%;
-      min-height: 360px;
+      padding: 10% 7% 23%;
+      min-height: 420px;
     }
     .carousel {
       position: static;
@@ -537,10 +555,8 @@ body {
     }
   }
   &__byNameDesign {
-    @media(max-width: 640px) {
-      span {
-        display: block;
-      }
+    span {
+      display: block;
     }
   }
 }
