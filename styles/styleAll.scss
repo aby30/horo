@@ -683,7 +683,9 @@ body {
   &__cta {
     display: inline-block;
     float: right;
-    > button {
+    > a {
+      display: inline-block;
+      text-decoration: none;
       font-size: 13px;
       padding: 6px 17px;
       text-transform: capitalize;
@@ -731,6 +733,10 @@ body {
     font-size: 21px;
     .callNumber {
       font-size: 24px;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
     }
   }
   &__socialTitle {
