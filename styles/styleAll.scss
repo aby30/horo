@@ -798,3 +798,21 @@ body {
     }
   }
 }
+
+
+.whatsappChat {
+  position: fixed;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  right: 3%;
+  bottom: 3%;
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06), 0 3px 6px rgba(0, 0, 0, 0.13);
+  img {
+    max-width: 100%;
+  }
+}
