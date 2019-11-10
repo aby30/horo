@@ -1,0 +1,78 @@
+html
+  head
+    title HoRo About
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js')
+    link(rel='stylesheet', href='styles/styleAll.css')
+    script(src='scripts/main.js')
+    link(link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600" rel="stylesheet")
+    
+  body
+    
+    include header.jade
+          
+    .about
+      .about__infos
+        .sideDesign
+          img(src="img/sideDesign.png")
+        .sideDesign
+          img(src="img/sideDesign.png")
+        .about__title
+          |About Horo
+          
+        .about__info
+          .about__img
+            img(src="img/diamond.png")
+          .about__infoDetails
+            .about__infoTitle
+              |Affordalble Luxury
+            .about__infoTxt
+              |We offer automation systems that control your lighting, entertainment systems, and appliances. Our products are cost-effective and help you save money and time. Control through the internet and our app, these home devices use simple yet innovative technology that is used throughout the smart home industry. Compatible with Google Home and Alexa, HoRo devices are designed to be customized as per your needs and comfort.
+        
+        .about__info.swap
+          .about__img
+            img(src="img/customer.png")
+          .about__infoDetails
+            .about__infoTitle
+              |Customer centric product
+            .about__infoTxt
+              |Our products are designed to take care of the tasks that take up extra time in your daily life. They’ll not only make your home run more efficiently but will also save you time and energy. We live in the era of cutting-edge technology and HoRo products will go a long way in making your home appliances smarter and more efficient.
+              
+        .about__info
+          .about__img
+            img(src="img/worldwide.png")
+          .about__infoDetails
+            .about__infoTitle
+              |World class product/quality
+            .about__infoTxt
+              |Our team thrives to provide world-class affordable products that perform efficiently. Our products are little in-house companions for you that serve multiple purposes ranging from following instructions to guiding you with assistance. These products are simple to set up and learn your preferences quickly.
+      
+      .about__team
+        .about__teamInner
+          .about__teamTitle
+            |The Team
+            
+          .about__teamMember
+            .about__teamMemImg
+              img(src="img/sunil.png")
+            .about__teamMemName
+              |Sunil Sheth
+            .about__teamMemDesig
+              |Firmware developer at Oyo
+              
+          .about__teamMember
+            .about__teamMemImg
+              img(src="img/udit.png")
+            .about__teamMemName
+              |Udit Baruah
+            .about__teamMemDesig
+              |Head partnership and alliance at Wheelstreet
+      
+      
+
+                
+        
+    include footer.jade
